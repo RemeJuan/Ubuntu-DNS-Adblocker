@@ -28,7 +28,11 @@ sudo nano /etc/bind/blacklist-adaway
 sudo nano /etc/bind/blacklist-custom
 ```
 These 3 files are included in this repo, the first 2 have been modified from thier source:
-* blacklist-yoyo is sourced from http://pgl.yoyo.org, however the generated files needs a path update, so if you wish to update directly from source, remember to change *"null.zone.file"* to *"/etc/bind/null.zone.file"*
+* blacklist-yoyo is sourced from http://pgl.yoyo.org, however the generated files needs a path update, so if you wish to update directly from source, run the following command after:
+```
+cat /etc/bind/blacklist-yoyo | sed 's/{/IN {/g' > sedtempfile && mv sedtempfile /etc/bind/blacklist-yoyo
+cat /etc/bind/blacklist-custom | sed 's:null.zone.file:/etc/bind/null.zone.file' > sedtempfile && mv sedtempfile /etc/bind/blacklist-custom
+```
 * blacklist-adaway is source from the host files used by the AdAway android app, this is if you wish to use this DNS server on your mobile devices.
 * The 3rd file is for you to add your own custom hosts that are not included in the initial 2, to make future updates of the original easier.
 
