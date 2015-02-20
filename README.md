@@ -28,7 +28,7 @@ sudo nano /etc/bind/blacklist-adaway
 sudo nano /etc/bind/blacklist-custom
 ```
 These 3 files are included in this repo, the first 2 have been modified from thier source:
-* blacklist-yoyo is sourced from http://pgl.yoyo.org, however the generated files needs a path update, so if you wish to update directly from source, run the following command after:
+* blacklist-yoyo is sourced from http://pgl.yoyo.org, however the generated files needs a path update, so if you wish to update directly from source, run the following commands after:
 ```
 cat /etc/bind/blacklist-yoyo | sed 's/{/IN {/g' > sedtempfile && mv sedtempfile /etc/bind/blacklist-yoyo
 cat /etc/bind/blacklist-custom | sed 's:null.zone.file:/etc/bind/null.zone.file' > sedtempfile && mv sedtempfile /etc/bind/blacklist-custom
