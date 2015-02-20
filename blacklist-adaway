@@ -1,0 +1,539 @@
+# AdAway default blocklist
+# Blocking mobile ad providers and some analytics providers
+# 
+# Contribute:
+# Create an issue at https://github.com" { type master; notify no; file"/etc/bind/null.zone.file"; };/dschuermann/ad-away/issues
+#
+# Changelog:
+# 2014-05-18 Now with a valid SSL certificate available at https://adaway.org/hosts.txt
+# 2013-03-29 Integrated some hosts from
+#            http://adblock.gjtech.net" { type master; notify no; file"/etc/bind/null.zone.file"; };/?format=hostfile
+# 2013-03-14 Back from the dead
+# 
+# License:
+# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+#
+# Contributions by:
+# Kicelo, Dominik Schuermann
+#
+
+# [General]
+"lb.usemaxserver.de" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"tracking.klickthru.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"gsmtop.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click.buzzcity.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.admoda.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"stats.pflexads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"a.glcdn.co" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"wwww.pontiflex.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"wwww.adleads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad.madvertise.de" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"apps.buzzcity.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.mobgold.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"android.bcfads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"req.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"show.buzzcity.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"api.analytics.omgpop.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"r.edge.inmobicdn.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"www.mmnetwork.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads.huntmad.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"creative1cdn.mobfox.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"admicro2.vcmedia.vn" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"admicro1.vcmedia.vn" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"s3.phluant.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c.vrvm.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"go.vrvm.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"static.estebull.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mobile.Banzai.it" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.xxxad.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"hhbekxxw5d9e.pflexads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adcontent.saymedia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.saymedia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ftpcontent.worldnow.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"s0.2mdn.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads.mocean.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bigmobileads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"banners.bigmobileads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.mopub.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"images.mpression.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"images.millennialmedia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"oasc04012.247realmedia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.xlxtra.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"assets.cntdy.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad.leadboltapps.net" { type master; notify no; file"/etc/bind/null.zone.file"; }; ## another airpush style ad#
+"api.airpush.com" { type master; notify no; file"/etc/bind/null.zone.file"; }; ## hope this is all #
+"ad.where.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"i.tapit.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn1.crispadvertising.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn2.crispadvertising.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"medrx.sensis.com" { type master; notify no; file"/etc/bind/null.zone.file"; };.au
+"rs-staticart.ybcdn.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads.taptapnetworks.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adserver.ubiyoo.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"media.motrixi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c753738.r38.cf2.rackcdn.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"edge.reporo.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.n-ws.org " { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.ons.ms" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"display-img.g.atti.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adultmoda.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.smartdevicemedia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"b.scorecardresearch.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"m.adsymptotic.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.vdopia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"api.yp.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"asotrack1.fluentmobile.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"android-sdk31.transpera.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"apps.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"lityware.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"lityware.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.admarvel.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"netdna.reporo.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"www.eltrafiko.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.trafficforce.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"gts-ads.twistbox.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"static.cdn.gtsmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.matomymobile.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"admanager.mcore.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.adiquity.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"lefuse.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"as.adfonic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"media.mobpartner.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.us.goldspotmedia.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads2.mediaarmor.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.nearbyad.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.marvel.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.ookla.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"data.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mobiledl.adboe.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"a.flurry.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [hosted on cloudfront]
+"d1ros97qkrwjf5.cloudfront.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"d3anogn3pbtk4v.cloudfront.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"d3oltyb66oj2v8.cloudfront.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"d2bgg7rjywcwsy.cloudfront.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"d18q5nc9wflibl.cloudfront.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [vserv.mobi"]
+"a.vserv.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"admin.vserv.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c.vserv.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.vserv.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"sf.vserv.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [pflexads.com"]
+"hybl9bazbc35.pflexads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"hhbekxxw5d9e.pflexads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };/
+"www.pflexads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"orencia.pflexads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [velti.com"]
+"atti.velti.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ru.velti.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mwc.velti.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"millionaire.velti.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [celtra.com"]
+"cdn.celtra.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.celtra.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cache-ssl.celtra.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cache.celtra.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"track.celtra.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [inner-active.mobi"]
+"wv.inner-active.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn1.inner-active.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"m2m1.inner-active.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Jumptab]
+"bos-tapreq01.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq02.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq03.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq04.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq05.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq06.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq07.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq08.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq09.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq10.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq11.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq12.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq13.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq14.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq15.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq16.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq17.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq18.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq19.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bos-tapreq20.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"web64.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"web63.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"web65.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"bo.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"i.jumptap.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [applovin]
+"a.applovin.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"d.applovin.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"pdn.applovin.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Mobpartner]
+"games.mobpartner.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"vigloo.mobpartner.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mobpartner.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"go.mobpartner.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"r.mobpartner.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Adinfuse]
+"uk-ad2.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"go.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad1.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad2.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"sky.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"orange-fr.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"sky-connect.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"uk-go.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"orangeuk-mc.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"intouch.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"funnel0.adinfuse.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [aditic]
+"click01.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click02.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click03.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click04.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click05.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click06.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click07.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click08.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click09.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click10.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click11.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click12.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click13.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"click14.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad.aditic.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [mydas.mobi"]
+"cvt.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"lp.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"golds.lp.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"suo.lp.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"aio.lp.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"lp.mp.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"media.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.mp.mydas.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; }; # with many subdomains
+
+# [appads.com"]
+"neptune.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"neptune1.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"neptune2.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"neptune3.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"saturn.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"saturn1.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"saturn2.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"saturn3.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"jupiter.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"jupiter1.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"jupiter2.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"jupiter3.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"req.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"req1.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"req2.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"req3.appads.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [yandex.ru]
+"mc.yandex.ru" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"an.yandex.ru" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [tapad]
+"swappit.tapad.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"campaign-tapad.s3.amazonaws.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adsrv1.tapad.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [mojiva.com"]
+"ads1.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads2.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads3.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads4.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads5.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [inmobi.com"]
+"i.w.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; }; #
+"r.w.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; }; # in-app provider
+"c.w.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adtracker.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"china.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"japan.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [phluantmobile.net"]
+"mdn1.phluantmobile.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mdn2.phluantmobile.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mdn3.phluantmobile.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mdn3origin.phluantmobile.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [smaato.net"]
+"soma.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c29new.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c01.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c02.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c03.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c04.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c05.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c06.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c07.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c08.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c09.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c10.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c11.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c12.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c13.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c14.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c15.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c16.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c17.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c18.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c19.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c20.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c21.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c22.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c23.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c24.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c25.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c26.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c27.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c28.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c29.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c30.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c31.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c32.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c33.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c34.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c35.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c36.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c37.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c38.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c39.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c40.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c41.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c42.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c43.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c44.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c45.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c46.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c47.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c48.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c49.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c50.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c51.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c52.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c53.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c54.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c55.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c56.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c57.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c58.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c59.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c60.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f03.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f04.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f05.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f06.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f07.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f08.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f09.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f10.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f11.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f12.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f13.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f14.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f15.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f16.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f17.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f18.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f19.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f20.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f21.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f22.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f23.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f24.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f25.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f26.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f27.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f28.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f29.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f30.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f31.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f32.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f33.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f34.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f35.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f36.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f37.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f38.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f39.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f40.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f41.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f42.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f43.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f44.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f45.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f46.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f47.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f48.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f49.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f50.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f51.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f52.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f53.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f54.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f55.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f56.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f57.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f58.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f59.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"f60.smaato.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [mojiva.com"]
+"img.ads1.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads2.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads3.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads4.mojiva.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [appstores.com"]
+"topix.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; }; #very annoying toolbar style overlay#
+"austin2011.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"techcrunch.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"sfmusictech.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"photohackday.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"nick.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"infochimps.appstores.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [mocean.mobi"]
+"img.ads1.mocean.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads2.mocean.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads3.mocean.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"img.ads4.mocean.mobi" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Smart Adserver]
+"akamai.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn1.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"diff.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"diff2.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"diff3.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"eqx.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"im2.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"itx5-publicidad.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"itx5.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"smartbo202b.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"tcy.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww129.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww13.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww14.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww234.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww251.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww264.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww276.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww302.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww309.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww362.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww370.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww381.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww392.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww55.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww57.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ww84.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"www.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"www2.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"www3.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"www4.smartadserver.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Mobclix]
+"ads.mobclix.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"data.mobclix.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"s.mobclix.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [MdotM, Inc.]
+"ads.mdotm.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.mdotm.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Greystripe]
+"ads2.greystripe.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"adsx.greystripe.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c.greystripe.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Amazon]
+"aax-us-east.amazon-adsystem.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"aax-us-west.amazon-adsystem.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"s.amazon-adsystem.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"fls-na-amazon.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Hosted on Amazon AWS]
+"admarvel.s3.amazonaws.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"html5adkit.plusmo.s3.amazonaws.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"inneractive-assets.s3.amazonaws.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"strikeadcdn.s3.amazonaws.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Admob]
+"a.admob.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"analytics.admob.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"c.admob.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"media.admob.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"p.admob.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [AdWhirl]
+"met.adwhirl.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"mob.adwhirl.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Doubleclick (Google)]
+"ad-g.doubleclick.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad.doubleclick.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad.mo.doubleclick.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ads.doubleclick.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"doubleclick.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"googleads.g.doubleclick.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [Google]
+"pagead.googlesyndication.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"pagead1.googlesyndication.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"pagead2.googlesyndication.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [National Rail Enquiries, https://play.google.com/store/apps/details?id=uk.co.nationalrail.google]
+"events.foreseeresults.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"survey.foreseeresults.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"m.quantserve.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [leadboltmobile]
+"ad.leadboltmobile.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [MSN Ads, in Skype]
+"mobileads.msn.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [https://play.google.com/store/apps/details?id=myapp.devilbaby.android.music.newmusic]
+"img.adecorp.co.kr" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"us0.adlibr.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ad.parrot.mable-inc.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [http://play.google.com/store/apps/details?id=com.chuangkai.phonehelper]
+"aos.wall.youmi.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"au.youmi.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [http://play.google.com/store/apps/details?id=com.coconuts.webnavigator]
+"coconuts.boy.jp" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"iacpromotion.s3.amazonaws.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"plugin.2easydroid.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [http://play.google.com/store/apps/details?id=com.babjul.billboard]
+"adimg3.search.naver.net" { type master; notify no; file"/etc/bind/null.zone.file"; };
+
+# [http://play.google.com/store/apps/details?id=com.taeyang.billboardtop]
+"st.a-link.co.kr" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"cdn.ajillionmax.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"dispatch.admixer.co.kr" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"ifc.inmobi.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
+"thinknear-hosted.thinknearhub.com" { type master; notify no; file"/etc/bind/null.zone.file"; };
